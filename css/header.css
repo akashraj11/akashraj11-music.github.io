@@ -57,7 +57,7 @@
     .flex-nav li {
         -webkit-box-flex: 31;
         -ms-flex: 31 1 50%;
-        flex: 31 1 50%;
+        flex: 3 1 50%;
     }
     .flex-nav .social {
         -webkit-box-flex: 1;
