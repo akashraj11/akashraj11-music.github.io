@@ -51,7 +51,7 @@
 
 @media all and (max-width:1000px) {
     #video-background {
-        margin-top: 0;
+        margin-top: 22vh;
     }
     .flex-nav ul {
         -ms-flex-wrap: wrap;
@@ -84,6 +84,9 @@
 }
 
 @media all and (max-width:600px) {
+    #video-background {
+        margin-top: 0;
+    }
     .top {
         -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
