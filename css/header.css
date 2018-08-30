@@ -51,7 +51,7 @@
 
 @media all and (max-width:1000px) {
     #video-background {
-        margin-top: 22vh;
+        margin-top: 0;
     }
     .flex-nav ul {
         -ms-flex-wrap: wrap;
