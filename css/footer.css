@@ -1,0 +1,234 @@
+footer {
+    background: rgb(247, 247, 247);
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    font-weight: 100;
+}
+
+.footercontent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #000;
+    background: transparent;
+    height: 20vh;
+    margin-bottom: 0px;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.footercolumns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 7px;
+    width: 30%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.secondfooter {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    background: transparent;
+    margin: 7px;
+    width: 33%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.firstfooter {
+    background: transparent;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin: 7px;
+    width: 33%;
+    border-right: 1px solid black;
+}
+
+.thirdfooter {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+    background: transparent;
+    margin: 1vh;
+    width: 33%;
+    border-left: 1px solid black;
+}
+
+.footercolumns p {
+    color: black;
+    margin: 10px;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+.social h3 {
+    color: #252525;
+    text-align: center;
+}
+
+.secondfooter a {
+    color: black;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 10px;
+    background: none;
+    height: 0;
+    margin: 1vh;
+}
+
+.secondfooter h6 {
+    color: black;
+}
+
+.secondfooter a:hover {
+    text-decoration: underline;
+}
+
+.firstfooter p {
+    margin-top: 12vh;
+}
+
+@media all and (min-width: 650) and (max-width:1000px) {
+    .secondfooter {
+        margin-top: -1vh;
+    }
+    .thirdfooter {
+        margin-top: -1vh;
+    }
+    .firstfooter {
+        margin-top: -1vh;
+    }
+    .secondfooter a {
+        color: black;
+        padding: 0;
+        padding-bottom: 10px;
+        font-size: 10px;
+        background: none;
+        height: 0;
+        margin: 2px;
+    }
+    .firstfooter {
+        background: transparent;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        ;
+        width: 33%;
+    }
+    .thirdfooter {
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background: transparent;
+        width: 33%;
+    }
+    .firstfooter p {
+        margin-top: 10vh;
+    }
+    .thirdfooter p {
+        margin: 0;
+    }
+}
+
+@media all and (max-width:600px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .footercontent {
+        overflow-x: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        color: #000;
+        background: transparent;
+        margin-bottom: 0px;
+        padding: 0;
+        margin-top: 0px;
+        height: 59.5vh;
+    }
+    .footercolumns {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+        width: 30%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0;
+        flex: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 0;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .secondfooter {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        background: whitesmoke;
+        margin: 0;
+        width: 100vw;
+        border-right: 0;
+        border-left: 0;
+        padding-bottom: 2.5vh;
+        padding-top: 1vh;
+        margin: 7px;
+    }
+    .firstfooter {
+        background: whitesmoke;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        margin: 0;
+        width: 100vw;
+        border-right: 0;
+        border-left: 0;
+        padding-bottom: 0px;
+        padding-top: 1vh;
+    }
+    .firstfooter p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-right: 37px;
+    }
+    .secondfooter p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .thirdfooter {
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+        background: whitesmoke;
+        width: 100vw;
+        border-right: 0;
+        border-left: 0px;
+        padding-bottom: 2.5vh;
+        padding-top: 1vh;
+    }
+}
