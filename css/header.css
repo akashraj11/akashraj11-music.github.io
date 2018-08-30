@@ -153,4 +153,13 @@
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    .fixedheader {
+        height: 9vh;
+    }
+    .top h1 {
+        height: 9vh;
+    }
+    .toggleNav {
+        height: 9vh;
+    }
 }
