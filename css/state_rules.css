@@ -3,7 +3,7 @@
         padding-top: 25vh;
     }
     #video-background {
-        margin-top: 22vh;
+        margin-top: 6vh;
     }
     .flex-nav ul {
         -ms-flex-wrap: wrap;
@@ -79,10 +79,13 @@
         width: 33%;
     }
     .firstfooter p {
-        margin-top: 10vh;
+        margin-top: 50px;
     }
     .thirdfooter p {
         margin: 0;
+    }
+    .footercontent {
+        height: 16vh;
     }
 }
 
@@ -102,7 +105,8 @@
         padding: 0px;
     }
     #video-background {
-        margin-top: 0;
+        display: flex;
+        margin-top: 0vh;
         height: 30vh;
     }
     .top {
@@ -180,151 +184,133 @@
     .toggleNav {
         height: 9vh;
     }
-}
-
-.signup>* {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 5p
-}
-
-.wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-
-.wrapper>* {
-    -webkit-box-ordinal-group: 10000;
-    -ms-flex-order: 9999;
-    order: 9999;
-}
-
-.hero {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
-}
-
-.heroimage {
-    height: 30vh;
-    width: 100vh;
-    padding-top: 0;
-}
-
-.details {
-    -webkit-box-ordinal-group: 4;
-    -ms-flex-order: 3;
-    order: 3;
-}
-
-.signup {
-    -webkit-box-ordinal-group: 5;
-    -ms-flex-order: 4;
-    order: 4;
-}
-
-.columns {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.pic {
-    width: 33.333333%;
-}
-
-.footercontent {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: #000;
-    background: transparent;
-    margin-bottom: 0px;
-    padding: 0;
-    margin-top: 0px;
-    height: 59.5vh;
-    margin-left: 40vw;
-    margin-left: 0px;
-}
-
-.footercolumns {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0;
-    width: 100%%;
-    -webkit-box-flex: 0;
-    -ms-flex: 0;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 0;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.secondfooter {
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
-    background: whitesmoke;
-    margin: 0;
-    width: 100vw;
-    border-right: 0;
-    border-left: 0;
-    padding-bottom: 2.5vh;
-    padding-top: 1vh;
-    margin: 7px;
-    width: 100%;
-}
-
-.firstfooter {
-    background: whitesmoke;
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
-    margin: 0;
-    width: 100vw;
-    border-right: 0;
-    border-left: 0;
-    padding-bottom: 0px;
-    padding-top: 1vh;
-    margin-left: 10vw;
-    width: 100%;
-}
-
-.firstfooter p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    margin-right: 37px;
-}
-
-.secondfooter p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
-
-.thirdfooter {
-    -webkit-box-ordinal-group: 4;
-    -ms-flex-order: 3;
-    order: 3;
-    background: whitesmoke;
-    width: 100vw;
-    border-right: 0;
-    border-left: 0px;
-    padding-bottom: 2.5vh;
-    padding-top: 1vh;
-    width: 100%;
-}
-
-
+    .signup>* {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 5p
+    }
+    .wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .wrapper>* {
+        -webkit-box-ordinal-group: 10000;
+        -ms-flex-order: 9999;
+        order: 9999;
+    }
+    .hero {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        padding-top: 0;
+    }
+    .heroimage {
+        height: 30vh;
+        width: 100vh;
+        padding-top: 0;
+    }
+    .details {
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+    .signup {
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+    .columns {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .pic {
+        width: 33.333333%;
+    }
+    .footercontent {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        color: #000;
+        background: transparent;
+        margin-bottom: 0px;
+        padding: 0;
+        margin-top: 0px;
+        height: 59.5vh;
+        margin-left: 40vw;
+        margin-left: 0px;
+    }
+    .footercolumns {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+        width: 100%%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 0;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .secondfooter {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        background: whitesmoke;
+        margin: 0;
+        width: 100vw;
+        border-right: 0;
+        border-left: 0;
+        padding-bottom: 2.5vh;
+        padding-top: 1vh;
+        margin: 7px;
+        width: 100%;
+    }
+    .firstfooter {
+        background: whitesmoke;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        margin: 0;
+        width: 100vw;
+        border-right: 0;
+        border-left: 0;
+        padding-bottom: 0px;
+        padding-top: 1vh;
+        margin-left: 10vw;
+        width: 100%;
+    }
+    .firstfooter p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-right: 37px;
+    }
+    .secondfooter p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .thirdfooter {
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+        background: whitesmoke;
+        width: 100vw;
+        border-right: 0;
+        border-left: 0px;
+        padding-bottom: 2.5vh;
+        padding-top: 1vh;
+        width: 100%;
+    }
 }

@@ -406,7 +406,7 @@ footer {
 }
 
 .firstfooter p {
-    margin-top: 12vh;
+    margin-top: 50px;
 }
 
 @media all and (min-width: 650) and (max-width:1000px) {}
